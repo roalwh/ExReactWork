@@ -30,3 +30,21 @@ divEl.prepend(h2El);
 
 console.log(divEl);
 containersEl[1].append(divEl);
+
+// 버튼 이름 추가(변경)
+// botton 생성
+const btnEl = document.createElement('button');
+
+// 버튼명 변경
+btnEl.textContent = '버튼';
+
+// 첫번째 container 선택
+const container1 = document.querySelector('.container');
+
+// container1에 버튼 추가
+container1.appendChild(btnEl);
+
+// DOM 삭제
+// container1 안의 h1 삭제
+const h1El = document.querySelector("h1");
+container1.parentElement.removeChild(h1El);
