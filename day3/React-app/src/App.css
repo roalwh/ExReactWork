@@ -1,0 +1,17 @@
+.title-bg {
+    height : 300px;
+    background-size : cover;
+    background-position : center;
+  }
+  .pokemon-list{
+    border: 1px solid black;
+    display: flex;
+  }
+  .pokemon-list .item{
+    border: 1px solid red;
+    width: 33.33%;
+    padding: 10px;
+  }
+  .pokemon-list .item img{
+    width: 100%;
+  }

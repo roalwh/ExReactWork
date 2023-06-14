@@ -2,5 +2,9 @@
     "liveServer.settings.port": 5501,
     "git.ignoreLimitWarning": true,
     "[dockercompose]": {
-    }
+    },
+    "[yaml]": {
+        "editor.tabSize": 4
+    },
+    "editor.fontFamily": "'D2coding ligature', Consolas, 'Courier New', monospace"
 }
