@@ -2,7 +2,7 @@ import './App.css'
 import Header from './components/Header';
 import CSSModule from "./components/CSSModule"
 
-function App() {
+function App2() {
   const name = "고길동";
   const userinfo = {
     name: "둘리",
@@ -40,4 +40,4 @@ function App() {
   )
 }
 
-export default App
+export default App2

@@ -1,9 +1,9 @@
 *{
   margin: 0;
   box-sizing: border-box;
-  margin: 1px auto;
+  margin: 10px auto;
   text-align: center;
-  border-radius:10px;
+  border-radius:2px;
 }
 body{
   font-family: '맑은 고딕', Consolas, 'Courier New', monospace;
