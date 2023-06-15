@@ -1,17 +1,45 @@
 import { useState } from 'react'
 import './App.css'
-import Modal from './Modal'
 
 function App() {
-  // true(열림),false(닫힘)
-  // 초기값 설정
-  const[modal,setModal] = new useState(false);
-  
+  const [Tab, setTab] = new useState(0);
+
   return (
     <>
-      <button onClick={()=>{setModal(true)}}>열기</button>
-      {/* modal 참이면 표시 */}
-      {modal ? <Modal setModal={setModal} /> : null}
+      <h1>App</h1>
+      <div className='tab-ui'>
+        <div className='tab-group'>
+          <a href="#tab1" onClick={()=>{setTab(0)}}>HTML</a>
+          <a href="#tab1" onClick={()=>{setTab(1)}}>CSS</a>
+          <a href="#tab1" onClick={()=>{setTab(2)}}>JavaScript</a>
+        </div>
+        <div className='tab-contents'>
+          {
+            Tab === 0 ?
+              <article id='tab1'>
+                <h1>HTML</h1>
+                <p>Hyper Text Markup Language</p>
+              </article>
+              : null
+          }
+          {
+            Tab === 1 ?
+              <article id='tab2'>
+                <h1>CSS</h1>
+                <p>Cascading Style Sheet</p>
+              </article>
+              : null
+          }
+          {
+            Tab === 2 ?
+              <article id='tab3'>
+                <h1>JavaScript</h1>
+                <p>Web Programing Language</p>
+              </article>
+              : null
+          }
+        </div>
+      </div>
     </>
   )
 }

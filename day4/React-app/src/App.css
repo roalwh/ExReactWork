@@ -4,3 +4,13 @@
   padding: 2rem;
   text-align: center;
 }
+.tab-ui { background:blanchedalmond; padding: 20px;}
+.tab-ui .tab-group { border: 1px solid #ccc; text-align: left;}
+.tab-ui .tab-group a { background: #ddd; margin: 5px;}
+.tab-ui .tab-group > a:hover {background: aliceblue; }
+
+.tab-contents { border: 2px solid #ccc; padding : 1rem; min-width: 300px;}
+.tab-contents h1 {margin: 4px;}
+
+
+
