@@ -9,9 +9,9 @@ function App() {
       <h1>App</h1>
       <div className='tab-ui'>
         <div className='tab-group'>
-          <a href="#tab1" onClick={()=>{setTab(0)}}>HTML</a>
-          <a href="#tab1" onClick={()=>{setTab(1)}}>CSS</a>
-          <a href="#tab1" onClick={()=>{setTab(2)}}>JavaScript</a>
+          <a href="#tab1" style={Tab===0 ? {color:'red'}:null} onClick={()=>{setTab(0)}}>HTML</a>
+          <a href="#tab1" style={Tab===1 ? {color:'red'}:null} onClick={()=>{setTab(1)}}>CSS</a>
+          <a href="#tab1" style={Tab===2 ? {color:'red'}:null} onClick={()=>{setTab(2)}}>JavaScript</a>
         </div>
         <div className='tab-contents'>
           {
