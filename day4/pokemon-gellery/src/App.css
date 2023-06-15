@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.gallery{
+  display: flex;
+  min-width: 850px;
+  min-height: 400px;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+}
+
+.gallery img{
+  min-width: 400px;
+  min-height: 400px;
+}
+.gallery .info{
+
+}
+.gallery .info .name{
+  margin:5px 5px;
+  font-size: 30pt;
+}
+
+.gallery .info .type{
+  margin:5px 5px;
+  font-size: 15pt;
+}
+
+.btnbox{
+  margin: 20px;
+}
+.btnbox .btn{
+  margin: 0px 10px;
+  padding: 10px 20px;
+  background-color: white;
+}
+.btnbox .btn:hover{
+  background-color: #ccc;
+}
+

@@ -9,6 +9,7 @@ function App2() {
   
   return (
     <>
+    <h1>App2</h1>
       <button onClick={()=>{setModal(true)}}>열기</button>
       {/* modal 참이면 표시 */}
       {modal ? <Modal setModal={setModal} /> : null}
