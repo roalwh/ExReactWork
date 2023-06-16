@@ -16,8 +16,12 @@
   min-height: 350px;
   padding: 1rem;
   margin: auto;
+
 }
 
+.date{
+  
+}
 .calender header {
   display: flex;
   justify-content: space-evenly;
@@ -27,9 +31,12 @@
 .calender ul {
   list-style-type: none;
   padding: 0;
+  
 }
 
-.calender li {}
+.calender li {
+  border: 1px solid white;
+}
 
 .calender .date {
   display: grid;
