@@ -1,0 +1,17 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+ul{
+  
+  text-align: left;
+}
+li{
+  list-style: none;
+}
+pre{
+  border: 1px solid #c9c9c9;
+  padding-left: 10px;
+  margin-left: 10px;
+}

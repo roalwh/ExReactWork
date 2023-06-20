@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+/* *{
+  border: 1px solid white;
+} */
+
+body {
+  background-image: url("./assets/backP.jpg");
+  background-size: cover;
+  width: 1440px;
+  height: 1024px;
+  color: white;
+  font-size: 22px;
+  padding-top: 100px;
+  margin: auto;
+}
+
+#App {
+  width: 1440px;
+  height: 1024px;
+  margin: auto;
+  font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+#App .famousBox {
+  width: 600px;
+  height: 350px;
+  margin-top: 80px;
+  margin-left: 40px;
+
+}
+
+#App .famousBox p {
+  font-size: 30px;
+}
+
+#App .Todaybox {
+  position: relative;
+  left: 40px;
+  top: 170px;
+  width: 100%;
+  width: 500px;
+}
+
+#App .Todaybox ul {
+  margin: 10px;
+  padding: 0px;
+  list-style-type: none;
+  font-size: 40px;
+}
+
+#App .Todaybox li {
+  font-weight: 700;
+  font-size: 173px;
+}
+
+#App button {
+  position: relative;
+  left: 1050px;
+  top: 80px;
+  width: 177px;
+  height: 45px;
+
+  padding: 10px 12px;
+  font-size: 20px;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+@media all and (max-width:320px) {
+
+  body {
+    background-image: url("./assets/backP.jpg");
+    background-size: unset;
+    width: 320px;
+    height: 600px;
+    margin: auto auto;
+    color: white;
+    font-size: 22px;
+    padding-top: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  #App {
+    width: 99%;
+    height: 99%;
+    margin: auto;
+  }
+
+
+  #App .Todaybox {
+    position: relative;
+    top: 5px;
+    left: 0px;
+    width: 95%;
+  }
+
+  #App .Todaybox ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    list-style-type: none;
+    font-size: 30px;
+  }
+
+  #App .Todaybox li {
+    text-align: center;
+    font-weight: 700;
+    font-size: 90px;
+
+  }
+
+  #App .famousBox {
+    position: absolute;
+    top: 210px;
+    left: 15px;
+    width: 282px;
+    min-height: 300px;
+    margin: 0px;
+    border: 1px solid white;
+
+  }
+
+  #App .famousBox p {
+    font-size: 16pt;
+  }
+
+  #App button {
+    position: relative;
+    top: 380px;
+    left: 62px;
+
+    padding: 10px 12px;
+    gap: 10px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+  }
+
+
+}
