@@ -19,7 +19,7 @@ function FamousSay() {
     fetchData();
     let settimeIn=setInterval(()=>{
         fetchData();
-    },100000)
+    },15000)
     return () => clearInterval(settimeIn); 
   },[])
 

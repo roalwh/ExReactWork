@@ -6,8 +6,8 @@
 body {
   background-image: url("./assets/backP.jpg");
   background-size: cover;
-  width: 1440px;
-  height: 1024px;
+  /* width: 1440px;
+  height: 1024px; */
   color: white;
   font-size: 22px;
   padding-top: 100px;
@@ -26,7 +26,6 @@ body {
   width: 600px;
   height: 350px;
   margin-top: 80px;
-  margin-left: 40px;
 
 }
 
@@ -36,7 +35,6 @@ body {
 
 #App .Todaybox {
   position: relative;
-  left: 40px;
   top: 170px;
   width: 100%;
   width: 500px;
@@ -56,7 +54,7 @@ body {
 
 #App button {
   position: relative;
-  left: 1050px;
+  left: 1100px;
   top: 80px;
   width: 177px;
   height: 45px;
@@ -68,7 +66,7 @@ body {
   margin-bottom: 50px;
 }
 
-@media all and (max-width:320px) {
+@media all and (max-width:600px) {
 
   body {
     background-image: url("./assets/backP.jpg");
@@ -91,8 +89,8 @@ body {
 
   #App .Todaybox {
     position: relative;
-    top: 5px;
-    left: 0px;
+    top: -330px;
+    left: 7px;
     width: 95%;
   }
 
@@ -112,13 +110,12 @@ body {
   }
 
   #App .famousBox {
-    position: absolute;
+    position: relative;
     top: 210px;
     left: 15px;
     width: 282px;
     min-height: 300px;
     margin: 0px;
-    border: 1px solid white;
 
   }
 
@@ -128,7 +125,7 @@ body {
 
   #App button {
     position: relative;
-    top: 380px;
+    top: 40px;
     left: 62px;
 
     padding: 10px 12px;

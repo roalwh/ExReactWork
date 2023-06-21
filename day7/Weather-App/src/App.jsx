@@ -7,13 +7,11 @@ import WeaterCells from './WeaterCells'
 
 function App() {
   
-  const [location, setLocation] = useState('');
-  const [weather, setWeather] = useState([]);
 
   return (
     <>
-     <h1>App</h1>
-     <WeaterCells location={location} weather={weather}></WeaterCells>
+     <h1>Weater App</h1>
+     <WeaterCells></WeaterCells>
     </>
   )
 }
