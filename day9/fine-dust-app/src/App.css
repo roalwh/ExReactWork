@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    margin: auto;
+}
+
+.navbox{
+    text-align: left;
+    background-color: cornflowerblue;
+   
+}
+.navbox span{
+    margin: 10px;
+    font-size: 40pt;
+  
+}
+.navbox span .linkname{
+    text-decoration : none;
+    font-weight: bold;
+    color: white;
+}
