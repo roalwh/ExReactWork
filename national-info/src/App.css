@@ -1,20 +1,25 @@
+body{
+   
+}
+
 
 .navBox {display: flex; align-items: center; justify-content: space-between;}
+.navBox{ font-size: 40pt; font-weight: 900;}
+.App-dark{background-color: hsl(207, 26%, 17%); color: hsl(0, 0%, 100%);}
+.App-white{background-color: hsl(0, 0%, 98%);color: hsl(200, 15%, 8%);}
+.App-dark .btn{ width: 100px; height: 40px; margin: 5px 10px; background-color: hsl(207, 26%, 17%); color: hsl(0, 0%, 100%); border: 1px solid white; border-radius: 10px;}
+.App-white .btn{ width: 100px; height: 40px; margin: 5px 10px;  background-color: hsl(0, 0%, 98%);color: hsl(200, 15%, 8%); border: 1px solid black; border-radius: 10px;}
 
-.navBox{ font-weight: bold;}
-
-.App-dark{
-    background-color: hsl(207, 26%, 17%);
-    color: hsl(0, 0%, 100%);
-}
-
-.App-white{
-    background-color: hsl(0, 0%, 98%);
-    color: hsl(200, 15%, 8%);
-}
 .seleteBox { margin: 5px; text-align: center;}
+.seleteBox input{width: 200px; height: 30px;}
+
 .nationalList {display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;}
 .nationalList .listBox{width: 300px; margin: 20px; box-shadow: 1px 1px 5px 1px #c9c9c9; border: 1px solid #ccc; text-align: left;}
 .nationalList .listBox img{width: 100%; height: 150px; object-fit: cover;}
 .nationalList .listBox ul{padding: 2px; list-style-type: none;}
 .nationalList .listInfo{margin: 10px; padding: 2px;}
+
+.natinfoBox{display: flex; justify-content: center; margin: 10px 0px;}
+.natinfoBox .natinfoimg{width: 800px; height: 600px; margin: 0px 30px; }
+.natinfoimg img{width: 100%;}
+.natinfoBox .netinfolist{margin: 0px 30px ;}
