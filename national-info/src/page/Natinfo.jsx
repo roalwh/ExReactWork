@@ -1,18 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom';
 
 export default function Natinfo(props) {
+
     const indexnum = props.seletindex;
     console.log(props.data);
     let data = props.data;
     console.log(data);
+
     const onMoveBack = () => {
         props.onserch("");
     }
 
     return (
         <>
-            <Link to="/"><button onClick={onMoveBack}>BACK</button></Link>
+            <Link to="/"><button className='btn' onClick={onMoveBack}>BACK</button></Link>
             <div className='natinfoBox'>
                 <div className="natinfoimg">
                     <img src={data[indexnum].flags.svg} alt={data[indexnum].flags.alt} name={data[indexnum].name.common} />

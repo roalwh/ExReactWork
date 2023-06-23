@@ -24,7 +24,7 @@ export default function Home(props) {
         <>
             <div className='seleteBox'>
                 <input type="text" onChange={ontextHandle} placeholder='ex)kor'/>
-                <button onClick={onserchClick}>검색</button>
+                <button className='btn' onClick={onserchClick}>검색</button>
             </div>
             <div className='nationalList' >
                 {

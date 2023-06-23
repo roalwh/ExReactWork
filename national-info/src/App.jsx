@@ -50,7 +50,7 @@ function App() {
   }
 
   return (
-    <body className={darkmode ? 'App-dark' : 'App-white'}>
+    <dir className={darkmode ? 'App-dark' : 'App-white'}>
       <BrowserRouter>
         <Nav ondarkmode={ondarkmode}></Nav>
         <Routes>
@@ -58,7 +58,7 @@ function App() {
           <Route path='/natinfo' element={<Natinfo data={data} seletindex={seletindex} />}></Route>
         </Routes>
       </BrowserRouter>
-    </body>
+    </dir>
 
 
   )
