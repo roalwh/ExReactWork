@@ -9,7 +9,7 @@ function Home(props) {
       <h1>미세먼지 데이터</h1>
       <h2>{data.totalCount}</h2>
       {
-        (data) ?
+        (data) &&
           data.items.map((item, i) => {
             return (
               <div className="listbox" key={i}>
@@ -29,10 +29,8 @@ function Home(props) {
                   <li>해제일 : {item.clearDate}</li>
                 </ul>
               </div>
-
-
             )
-          }) : null
+          })
       }
     </div>
 
